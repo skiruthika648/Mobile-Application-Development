@@ -30,12 +30,16 @@ Step 7: Save and run the application.
 ```
 /*
 Program to create and design an android application that draws basic graphical primitives on the screen.
-Developed by:
-Registeration Number :
+Developed by:KIRUTHIKA S
+Registeration Number :212221040085
 */
 ```
 
 ## OUTPUT
+![basicsgraphic](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/86957cb7-1b56-4e30-9273-4070d20ad699)
+
+![basicgraphics](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/fae9d842-68f8-41fd-b635-01b9bc2623cc)
+
 
 
 
