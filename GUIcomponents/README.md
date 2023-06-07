@@ -134,6 +134,10 @@ private int generateRandomColor() {
 
 
 ## OUTPUT
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/0a36306c-213a-4023-958b-2266f59de3d4)
+
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/f68d1e70-9c0d-46c7-8bf0-5d40abf0dc1f)
+
 
 
 
