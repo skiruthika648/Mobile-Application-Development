@@ -119,6 +119,14 @@ public void btnGetContactPressed(View view) {
 
 
 ## OUTPUT
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/c725afdd-75ab-4d2d-a553-c7590ad70d52)
+
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/729efede-28d5-493a-a3f8-f10869eb6999)
+
+![Uploading image.png…]()
+
+
+
 
 
 
