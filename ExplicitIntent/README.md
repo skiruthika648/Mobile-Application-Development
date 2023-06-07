@@ -174,6 +174,12 @@ private long calculateFactorial(int number) {
 
 
 ## OUTPUT
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/069008a5-bd23-42d0-b19e-ee249235f3ec)
+
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/ddb62f9c-5513-44e0-88d2-3b58352fa2f0)
+
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/393d6e78-ff50-410a-b31d-2819021c2faa)
+
 
 
 
