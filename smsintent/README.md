@@ -197,6 +197,10 @@ private void sendSMS(){
 
 
 ## OUTPUT
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/00251882-d096-4240-8ad4-456fc28de934)
+
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/3619229e-4fbe-443d-b212-2f124e1341c2)
+
 
 
 
