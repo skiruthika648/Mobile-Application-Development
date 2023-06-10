@@ -34,8 +34,79 @@ Developed by:KIRUTHIKA S
 Registeration Number :212221040085
 */
 ```
+# Activity_main.xml:
+```
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:app="http://schemas.android.com/apk/res-auto"
+            
+xmlns:tools="http://schemas.android.com/tools"
+            
+android:layout_width="match_parent"
+            
+android:layout_height="match_parent"
+            
+tools:context=".MainActivity">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:srcCompat="@tools:sample/avatars" />
+```
+# MainActivity.java:
+```
+package com.example.basicgraphics;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.graphics.Bitmap;
+
+import android.graphics.Canvas;
+
+import android.graphics.Color;
+
+import android.graphics.Paint;
+
+import android.graphics.drawable.BitmapDrawable;
+
+import android.os.Bundle;
+
+import android.widget.ImageView;
+
+public class MainActivity extends AppCompatActivity {
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+    setContentView(R.layout.activity_main);
+
+    try {
+        Bitmap bitmap = Bitmap.createBitmap(720, 1280, Bitmap.Config.ARGB_8888);
+        ImageView imageView = findViewById(R.id.imageView);
+        imageView.setBackground(new BitmapDrawable(getResources(), bitmap));
+        Canvas canvas = new Canvas(bitmap);
+        Paint paint = new Paint();
+        paint.setColor(Color.BLUE);
+        paint.setTextSize(50);
+        canvas.drawText("Rectangle", 420, 150, paint);
+        canvas.drawRect(400, 200, 650, 700, paint);
+        canvas.drawText("Circle", 120, 150, paint);
+        canvas.drawCircle(200, 350, 150, paint);
+        canvas.drawText("Square", 120, 800, paint);
+        canvas.drawRect(50, 850, 350, 1150, paint);
+        canvas.drawText("Line", 420, 800, paint);
+        canvas.drawLine(520, 850, 520, 1150, paint);
+    } catch (Exception e) {
+        e.printStackTrace();
+    }
+}
+}
+```
 
 ## OUTPUT
+![image](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/23e70726-4eb5-4e4f-804b-1577df126930)
+
 ![basicsgraphic](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/86957cb7-1b56-4e30-9273-4070d20ad699)
 
 ![basicgraphics](https://github.com/skiruthika648/Mobile-Application-Development/assets/128348968/fae9d842-68f8-41fd-b635-01b9bc2623cc)
